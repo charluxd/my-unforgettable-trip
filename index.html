@@ -57,8 +57,7 @@
       }
 
       .col-span-10-intro {
-        position: absolute;
-        top: -80px;
+        top: -96px;
       }
 
       button {
@@ -101,6 +100,7 @@
       .container-overlap {
         position: relative;
         align-items: start;
+        margin: 0 auto 184px;
       }
 
       .col-span-12 {
@@ -131,18 +131,25 @@
       .col-span-10-intro {
         padding: 56px 96px;
         background-color: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 24px;
 
         position: relative;
-        top: -80px;
-
         grid-column: 2 / span 10;
+      }
+
+      .col-span-10 {
+        top: -80px;
+      }
+
+      .col-span-10-intro {
+        top: -120px;
       }
 
       .getting-there-img {
         display: grid;
         grid-column: 2 / span 6;
-        margin: 120px 0;
+        margin: 0;
       }
 
       .getting-there-img img {
@@ -150,6 +157,7 @@
         height: auto;
         border-radius: 24px;
         display: block;
+        margin: 0;
         aspect-ratio: 4 / 3;
       }
 
@@ -160,10 +168,11 @@
       .col-span-6 {
         grid-column: 7 / span 5;
         background-color: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 24px;
         padding: 48px;
         position: absolute;
-        top: 136px;
+        top: -8px;
       }
 
       .col-span-6-btn {
@@ -217,7 +226,7 @@
         .col-span-6 {
           grid-column: 6 / span 7;
           position: absolute;
-          top: 136px;
+          top: -40px;
         }
 
         .hero-text {
@@ -244,7 +253,7 @@
           }
 
           .hero-text {
-            top: 18%;
+            top: 20%;
           }
 
           img {
@@ -252,12 +261,17 @@
           }
 
           .getting-there-img {
-            margin: 80px 0 0 0;
+            margin: 40px 0 0 0;
           }
 
           button {
             width: 100%;
             padding: 16px;
+          }
+
+          .container,
+          .container-overlap {
+            margin: 0 auto 64px auto;
           }
 
           .col-span-12-three-img,
@@ -277,9 +291,12 @@
             top: -48px;
           }
 
-          .col-span-10,
+          .col-span-10 {
+            grid-column: 1 / span 12;
+            top: -24px;
+          }
+
           .col-span-10-intro {
-            border-radius: 16px;
             top: -24px;
             grid-column: 1 / span 12;
           }
@@ -287,8 +304,8 @@
           .col-span-6,
           .col-span-10,
           .col-span-10-intro {
-            padding: 24px;
             margin: 0 16px;
+            padding: 24px;
             border-radius: 16px;
           }
         }
@@ -428,7 +445,7 @@
               short of magical — serene, spiritual, and deeply moving.
             </p>
           </div>
-          <button>Explore Memorising Angkor Wat</button>
+          <button>Explore Mesmerising Angkor Wat</button>
         </div>
       </div>
     </section>
